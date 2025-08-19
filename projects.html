@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Syed Murtuza Abbas Naqvi</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav class="site-nav" aria-label="Main Navigation">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu"
+          aria-label="Toggle navigation">☰</button>
+        <ul id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container projects">
+    <h1 class="reveal">Featured Projects</h1>
+
+    <!-- Slider / Carousel -->
+    <div class="slider reveal" aria-roledescription="carousel">
+      <div class="slides">
+        <div class="slide" aria-label="Slide 1"><img src="img/Dekstop View.png" alt="Project screenshot 1"></div>
+        <div class="slide" aria-label="Slide 2"><img src="img/dekstop view atlantic.png" alt="Project screenshot 2">
+        </div>
+        <div class="slide" aria-label="Slide 3"><img src="img/dekstop zcoresystems.png" alt="Project screenshot 3">
+        </div>
+      </div>
+      <button class="slider-btn prev" aria-label="Previous slide">‹</button>
+      <button class="slider-btn next" aria-label="Next slide">›</button>
+      <div class="dots" role="tablist" aria-label="Slider pagination"></div>
+    </div>
+
+    <!-- Project Grid -->
+    <section class="grid reveal">
+  <article class="project-card">
+    <h3>Crypto Tax & Accounting Services</h3>
+    <p>A professional WordPress + Elementor website for a Canadian crypto tax and accounting firm.</p>
+    <a class="btn small" href="https://fullstakecpa.com" target="_blank">View</a>
+  </article>
+
+  <article class="project-card">
+    <h3>Zcore Systems – zcoresystems.com</h3>
+    <p>Developed an IT services website highlighting software solutions, services, and company expertise.</p>
+    <a class="btn small" href="https://zcoresystems.com" target="_blank">View</a>
+  </article>
+
+  <article class="project-card">
+    <h3>Atlantic Car Towing – atlanticcartowing.com</h3>
+    <p>Built a responsive towing services website with modern design and clear service pages.</p>
+    <a class="btn small" href="https://dev-atlanticcartowing.pantheonsite.io/" target="_blank">View</a>
+  </article>
+
+  <article class="project-card">
+    <h3>Malik TV Wall Mount – maliktvwallmount.ca</h3>
+    <p>Created an e-commerce-ready website for a wall-mounting and installation services business.</p>
+    <a class="btn small" href="https://maliktvwallmount.ca" target="_blank">View</a>
+  </article>
+</section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Syed Murtuza Abbas naqvi. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

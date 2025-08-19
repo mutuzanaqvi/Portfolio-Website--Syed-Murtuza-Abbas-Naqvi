@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="logo" href="index.html">MyPortfolio</a>
+      <nav class="site-nav" aria-label="Main Navigation">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="primary-menu"
+          aria-label="Toggle navigation">☰</button>
+        <ul id="primary-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container about">
+    <section class="about-hero reveal">
+      <img class="avatar" src="img/40846.jpg" alt="Your portrait" />
+      <div>
+        <h1>About Me</h1>
+        <p class="lead"> I am a front-end developer with a strong foundation in HTML, CSS, JavaScript, and jQuery,
+          currently pursuing my degree in Software Engineering. I focus on building fast, accessible, and visually
+          appealing websites..</p>
+      </div>
+    </section>
+
+    <section class="about-content reveal">
+      <h2>Bio</h2>
+      <p>
+        I build accessible, responsive interfaces using HTML, CSS, and JavaScript.
+        <span class="more-text" hidden>
+          My approach is content‑first: structure with semantic HTML, enhance with CSS, and add interactivity with
+          progressive jQuery where it truly helps the user.
+        </span>
+      </p>
+      <button class="btn outline" id="toggleMore" aria-expanded="false" aria-controls="moreText">Read more</button>
+    </section>
+
+    <section class="skills reveal">
+      <h2>Core Skills</h2>
+      <ul class="tags">
+        <li>HTML5</li>
+        <li>CSS3 (Flexbox/Grid)</li>
+        <li>JavaScript (ES6+)</li>
+        <li>jQuery</li>
+        <li>Responsive Design</li>
+        <li>Accessibility</li>
+        <li>WordPress</li>
+        <li>Shopify</li>
+        <li>WooCommerce</li>
+        <li>Google Businnes listing</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Syed Murtuza Abbas Naqvi. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
